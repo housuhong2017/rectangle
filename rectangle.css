@@ -1,9 +1,16 @@
+#main{
+  font-size: 1.1em;
+  margin: 50px auto;
+  width: 370px;
+}
 div{
   width: 370px;
   margin: 50px auto;
   font-size: 1.1em;
 }
-
+span{
+  color:red;
+}
 input,label{
   margin: 5px 0;
   font-size: 1em;
@@ -13,4 +20,14 @@ input,label{
 #calculate{
   width: 70px;
   margin-left: 63px;
+}
+#height-validation,#width-validation{
+  top:75px;
+  right: 145px;
+  width: 200px;
+  position: absolute;
+  color:red;
+}
+#width-validation{
+ top: 111px;
 }
